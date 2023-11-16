@@ -86,6 +86,11 @@ void findFunction(char *opcode, char *val, int line, int format)
 	instruction_t func[] = {
 		{"push", push},
 		{"pall", pall},
+		{"pint", pint},
+		{"pop", pop_top},
+		{"nop", nop},
+		{"swap", swap},
+		{"add", addNodes},
 		{NULL, NULL}
 	};
 	if (opcode[0] == '#')

@@ -60,7 +60,7 @@ void pint(stack_t **, unsigned int);
 void pop_top(stack_t **, unsigned int);
 void nop(stack_t **, unsigned int);
 void swap(stack_t **, unsigned int);
-
+void addNodes(stack_t **, unsigned int);
 /*Error hanlding*/
 void error(int err, ...);
 void moreErr(int err, ...);
