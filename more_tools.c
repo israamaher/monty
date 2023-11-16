@@ -1,4 +1,4 @@
-#include "main.h"
+#include "monty.h"
 /**
  * call - Calls the required function.
  * @function: Pointer to the function that is about to be called.

@@ -1,4 +1,4 @@
-#include "main.h"
+#include "monty.h"
 /**
  * push_to_stack - Adds a node to the stack.
  * @new: Pointer to the new node.
